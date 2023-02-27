@@ -14,6 +14,7 @@
 		430CCFCF299CCB6F00352929 /* RainMakerSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430CCFCE299CCB6F00352929 /* RainMakerSwiftUITests.swift */; };
 		430CCFD9299CCB7000352929 /* RainMakerSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430CCFD8299CCB7000352929 /* RainMakerSwiftUIUITests.swift */; };
 		430CCFDB299CCB7000352929 /* RainMakerSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430CCFDA299CCB7000352929 /* RainMakerSwiftUIUITestsLaunchTests.swift */; };
+		4D52164B29ACD9160075A41D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D52164A29ACD9160075A41D /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		430CCFD4299CCB7000352929 /* RainMakerSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainMakerSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		430CCFD8299CCB7000352929 /* RainMakerSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainMakerSwiftUIUITests.swift; sourceTree = "<group>"; };
 		430CCFDA299CCB7000352929 /* RainMakerSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainMakerSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4D52164A29ACD9160075A41D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				430CCFBD299CCB6D00352929 /* RainMakerSwiftUIApp.swift */,
 				430CCFBF299CCB6D00352929 /* ContentView.swift */,
+				4D52164A29ACD9160075A41D /* CardView.swift */,
 				430CCFC1299CCB6F00352929 /* Assets.xcassets */,
 				430CCFC3299CCB6F00352929 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				430CCFC0299CCB6D00352929 /* ContentView.swift in Sources */,
+				4D52164B29ACD9160075A41D /* CardView.swift in Sources */,
 				430CCFBE299CCB6D00352929 /* RainMakerSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
