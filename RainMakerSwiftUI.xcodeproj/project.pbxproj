@@ -14,7 +14,16 @@
 		430CCFCF299CCB6F00352929 /* RainMakerSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430CCFCE299CCB6F00352929 /* RainMakerSwiftUITests.swift */; };
 		430CCFD9299CCB7000352929 /* RainMakerSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430CCFD8299CCB7000352929 /* RainMakerSwiftUIUITests.swift */; };
 		430CCFDB299CCB7000352929 /* RainMakerSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430CCFDA299CCB7000352929 /* RainMakerSwiftUIUITestsLaunchTests.swift */; };
+		4D070EA629BF2689001E5C71 /* FirstDesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D070EA529BF2689001E5C71 /* FirstDesignView.swift */; };
+		4D070EA829BF2709001E5C71 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D070EA729BF2709001E5C71 /* HomePage.swift */; };
+		4D070EAA29BF3342001E5C71 /* WardrobeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D070EA929BF3342001E5C71 /* WardrobeView.swift */; };
 		4D52164B29ACD9160075A41D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D52164A29ACD9160075A41D /* CardView.swift */; };
+		4DCDAA9029C06C00008217BE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCDAA8F29C06C00008217BE /* Constants.swift */; };
+		4DCDAA9329C06C4E008217BE /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCDAA9229C06C4E008217BE /* OpenAIService.swift */; };
+		4DCDAA9629C06D1E008217BE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4DCDAA9529C06D1E008217BE /* Alamofire */; };
+		4DCDAA9929C0811E008217BE /* GptMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCDAA9829C0811D008217BE /* GptMessage.swift */; };
+		4DCDAA9C29C0A1CE008217BE /* HealthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCDAA9B29C0A1CE008217BE /* HealthStore.swift */; };
+		4DCDAA9E29C0A48A008217BE /* Height.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCDAA9D29C0A48A008217BE /* Height.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +54,16 @@
 		430CCFD4299CCB7000352929 /* RainMakerSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainMakerSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		430CCFD8299CCB7000352929 /* RainMakerSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainMakerSwiftUIUITests.swift; sourceTree = "<group>"; };
 		430CCFDA299CCB7000352929 /* RainMakerSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainMakerSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4D070EA529BF2689001E5C71 /* FirstDesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstDesignView.swift; sourceTree = "<group>"; };
+		4D070EA729BF2709001E5C71 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		4D070EA929BF3342001E5C71 /* WardrobeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WardrobeView.swift; sourceTree = "<group>"; };
 		4D52164A29ACD9160075A41D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		4DCDAA8F29C06C00008217BE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4DCDAA9229C06C4E008217BE /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
+		4DCDAA9829C0811D008217BE /* GptMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GptMessage.swift; sourceTree = "<group>"; };
+		4DCDAA9B29C0A1CE008217BE /* HealthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStore.swift; sourceTree = "<group>"; };
+		4DCDAA9D29C0A48A008217BE /* Height.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Height.swift; sourceTree = "<group>"; };
+		4DCDAA9F29C0A7E3008217BE /* RainMakerSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RainMakerSwiftUI.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DCDAA9629C06D1E008217BE /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,9 +115,16 @@
 		430CCFBC299CCB6D00352929 /* RainMakerSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				4DCDAA9F29C0A7E3008217BE /* RainMakerSwiftUI.entitlements */,
+				4DCDAA9A29C0A1C0008217BE /* HealthStore */,
+				4DCDAA9729C08109008217BE /* Models */,
+				4DCDAA9129C06C3B008217BE /* ChatGpt */,
 				430CCFBD299CCB6D00352929 /* RainMakerSwiftUIApp.swift */,
 				430CCFBF299CCB6D00352929 /* ContentView.swift */,
 				4D52164A29ACD9160075A41D /* CardView.swift */,
+				4D070EA529BF2689001E5C71 /* FirstDesignView.swift */,
+				4D070EA729BF2709001E5C71 /* HomePage.swift */,
+				4D070EA929BF3342001E5C71 /* WardrobeView.swift */,
 				430CCFC1299CCB6F00352929 /* Assets.xcassets */,
 				430CCFC3299CCB6F00352929 /* Preview Content */,
 			);
@@ -130,6 +156,32 @@
 			path = RainMakerSwiftUIUITests;
 			sourceTree = "<group>";
 		};
+		4DCDAA9129C06C3B008217BE /* ChatGpt */ = {
+			isa = PBXGroup;
+			children = (
+				4DCDAA8F29C06C00008217BE /* Constants.swift */,
+				4DCDAA9229C06C4E008217BE /* OpenAIService.swift */,
+			);
+			path = ChatGpt;
+			sourceTree = "<group>";
+		};
+		4DCDAA9729C08109008217BE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DCDAA9829C0811D008217BE /* GptMessage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4DCDAA9A29C0A1C0008217BE /* HealthStore */ = {
+			isa = PBXGroup;
+			children = (
+				4DCDAA9B29C0A1CE008217BE /* HealthStore.swift */,
+				4DCDAA9D29C0A48A008217BE /* Height.swift */,
+			);
+			path = HealthStore;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +198,9 @@
 			dependencies = (
 			);
 			name = RainMakerSwiftUI;
+			packageProductDependencies = (
+				4DCDAA9529C06D1E008217BE /* Alamofire */,
+			);
 			productName = RainMakerSwiftUI;
 			productReference = 430CCFBA299CCB6D00352929 /* RainMakerSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +273,9 @@
 				Base,
 			);
 			mainGroup = 430CCFB1299CCB6D00352929;
+			packageReferences = (
+				4DCDAA9429C06D1E008217BE /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 430CCFBB299CCB6D00352929 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,8 +318,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D070EA829BF2709001E5C71 /* HomePage.swift in Sources */,
+				4DCDAA9C29C0A1CE008217BE /* HealthStore.swift in Sources */,
+				4DCDAA9929C0811E008217BE /* GptMessage.swift in Sources */,
+				4DCDAA9E29C0A48A008217BE /* Height.swift in Sources */,
 				430CCFC0299CCB6D00352929 /* ContentView.swift in Sources */,
+				4D070EA629BF2689001E5C71 /* FirstDesignView.swift in Sources */,
+				4DCDAA9329C06C4E008217BE /* OpenAIService.swift in Sources */,
 				4D52164B29ACD9160075A41D /* CardView.swift in Sources */,
+				4DCDAA9029C06C00008217BE /* Constants.swift in Sources */,
+				4D070EAA29BF3342001E5C71 /* WardrobeView.swift in Sources */,
 				430CCFBE299CCB6D00352929 /* RainMakerSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,11 +484,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RainMakerSwiftUI/RainMakerSwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RainMakerSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "The app has to be able to read stats";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "The app has to be able to read stats";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -446,11 +515,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RainMakerSwiftUI/RainMakerSwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RainMakerSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "The app has to be able to read stats";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "The app has to be able to read stats";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -581,6 +653,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4DCDAA9429C06D1E008217BE /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4DCDAA9529C06D1E008217BE /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DCDAA9429C06D1E008217BE /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 430CCFB2299CCB6D00352929 /* Project object */;
 }

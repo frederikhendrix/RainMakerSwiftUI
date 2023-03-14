@@ -9,16 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack{
-            HStack{
-                CardView(color: .red, TextColor: .white, TopText: "25°C", BottomText: "20°C", Font: .subheadline)
-                CardView(color: .white,TextColor: .black, TopText: "0", BottomText: "MM/H", Font: .largeTitle)
+        TabView{
+           HomePage()
+                .tabItem {
+                Image(systemName: "house.fill")
+                Text("Homepage")
+           }
+            WardrobeView()
+                 .tabItem {
+                 Image(systemName: "cabinet.fill")
+                 Text("Wardrobe")
             }
-            HStack{
-                CardView(color: .yellow, TextColor: .black, TopText: "319", BottomText: "Sun Power", Font: .largeTitle)
-                CardView(color: .green, TextColor: .black, TopText: "2.8", BottomText: "M/S", Font: .largeTitle)
-            }
-            Spacer()
         }
 
  
